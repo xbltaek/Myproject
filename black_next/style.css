@@ -1,0 +1,109 @@
+
+
+
+button {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff34;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: "Soledago";
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* Изменяем на absolute */
+    top: 10px;
+    /* Располагаем сверху на расстоянии 10px */
+    left: 10px;
+    /* Располагаем слева на расстоянии 10px */
+    box-shadow: 5px 5px 5px #00000034;
+}
+
+
+
+.container {
+    background-image: url("../images/Slide\ 16_9\ -\ blc.png");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.information {
+    background-image: url(../images/Slide\ 16_9\ -\ blc\ min.png);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: calc(100% / 1.4);
+    padding: 30px;
+    justify-content: center;
+    border-radius: 200px;
+    width: 1000px;
+    transition: 0.5s;
+    filter: blur(5px);
+}
+
+.information:hover {
+    background-image: url(../images/Slide\ 16_9\ -\ blc\ min.png);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: calc(100% / 1.4);
+    padding: 30px;
+    justify-content: center;
+    border-radius: 200px;
+    width: 1100px;
+    filter: blur(0px);
+}
+
+img {
+    width: 200px;
+}
+
+h3 {
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    font-family: "20";
+    -webkit-text-stroke: 0.001px #ffffffff;
+    font-weight:bolder;
+    color: azure;
+}
+
+@media (max-width: 768px) {
+    .information {
+        flex-direction: column;
+        width: 90%;
+    }
+    h3 {
+        width: 100%;
+    }
+    img {
+        margin-bottom: 20px;
+        width: 150px;
+    }
+}
+
+@font-face {
+    font-family: "20";
+    /* Определяет шрифт Soledago */
+    src: url("../Fontes/Natasha.ttf") format("truetype");
+    /* Путь к файлу шрифта */
+    font-style: normal;
+    /* Обычный стиль шрифта */
+    font-weight: normal;
+    /* Обычный вес шрифта */
+}
+

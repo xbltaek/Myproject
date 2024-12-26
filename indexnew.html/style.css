@@ -1,0 +1,61 @@
+button {
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убирает рамку у кнопок */
+    cursor: pointer; /* Меняет курсор на указатель при наведении */
+    background-color: #ffffff34; /* Полупрозрачный белый фон */
+    margin: 10px; /* Отступы вокруг кнопки */
+    border-radius: 8px; /* Закругленные углы */
+    font-family: "Soledago"; /* Шрифт Soledago для текста */
+    width: 120px; /* Одинаковая ширина кнопок */
+    height: 60px; /* Одинаковая высота кнопок */
+    display: flex; /* Flexbox для выравнивания текста */
+    justify-content: center; /* Центрирование текста по горизонтали */
+    align-items: center; /* Центрирование текста по вертикали */
+    position: fixed; /* Фиксированное положение на экране */
+    z-index: 100;
+}
+
+.classchoose {
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+}
+
+h1 {
+    z-index: 99;
+    position: fixed;
+    top: 45%;
+    left: 52%;
+}
+
+.color-label input [type="color"]
+{
+    display: none;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* Убирает прокрутку */
+}
+
+.nt-embed {
+    width: 100%;
+    height: 100vh; /* Высота на весь экран */
+}
+
+.nextbutton {
+    right: 53%;
+    top: 46%;
+}
+
+
+input[type=color] {
+    padding: 0px; 
+    background-color: none;
+    border:0px solid black; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
