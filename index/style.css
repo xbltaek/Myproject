@@ -206,7 +206,7 @@ p {
 @font-face {
     font-family: "Soledago";
     /* Определяет шрифт Soledago */
-    src: url("/Fontes/Soledago.ttf") format("truetype");
+    src: url("../Fontes/Soledago.ttf") format("truetype");
     /* Путь к файлу шрифта */
     font-style: normal;
     /* Обычный стиль шрифта */
@@ -217,7 +217,7 @@ p {
 @font-face {
     font-family: "Lozung";
     /* Определяет шрифт Lozung */
-    src: url("/Fontes/Gorod.otf") format("truetype");
+    src: url("../Fontes/Gorod.otf") format("truetype");
     /* Путь к файлу шрифта */
     font-style: normal;
     /* Обычный стиль шрифта */
@@ -228,7 +228,7 @@ p {
 @font-face {
     font-family: "Gorod";
     /* Определяет шрифт Gorod */
-    src: url("d:\Fontes\Gorod.otf") format("truetype");
+    src: url("..\Fontes\Gorod.otf") format("truetype");
     /* Путь к файлу шрифта */
     font-style: normal;
     /* Обычный стиль шрифта */
